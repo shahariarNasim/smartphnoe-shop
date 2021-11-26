@@ -1,0 +1,74 @@
+[
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/honor-x30i.jpg ",
+        "title": "Honor X30i ",
+        "description": " Released 2021 November 02, 176g 7.5mm thickness, Android 11, Magic UI 5.0, 128GB 256GB, storage no card slot, IPS LCD, 90Hz Size 6.7 inches, Resolution 1080 x 2388 pixels",
+         "price": " $190"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-ultra-r.jpg ",
+        "title": " Motorola Edge 30 Ultra",
+        "description": "Display:1080 x 2400 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 12, Memory: 8/128 GB,Battery: Li-Po 5000 mAh non-removable",
+        "price": " $250"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/nokia-x100.jpg ",
+        "title": "Nokia X100 ",
+        "description": "Display:1080 x 2400 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable ",
+        "price": " $290"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg ",
+        "title": "Samsung S21 Ultra 5G ",
+        "description": "Display:1440 x 3200 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable  ",
+        "price": " $150"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg ",
+        "title": "OnePlus 9 Pro ",
+        "description": "Display:1440 x 3200 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable  ",
+        "price": " $700"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg ",
+        "title": " Apple iPhone 13",
+        "description": "Display: Super Retina 1440 x 3200 pixels, Chipset:Apple A15 Bionic (5 nm), Platform:iOS 15, Memory: 8/128 GB,Battery: Li-Ion 3240 mAh, non-removable (12.41 Wh)",
+        "price": " $1000"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/honor-x30i.jpg ",
+        "title": "Honor X ",
+        "description": " Released 2021 November 02, 176g 7.5mm thickness, Android 11, Magic UI 5.0, 128GB 256GB, storage no card slot, IPS LCD, 90Hz Size 6.7 inches, Resolution 1080 x 2388 pixels",
+         "price": " $190"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-30-ultra-r.jpg ",
+        "title": " Motorola Edge Ultra",
+        "description": "Display:1080 x 2400 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 12, Memory: 8/128 GB,Battery: Li-Po 5000 mAh non-removable",
+        "price": " $250"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/nokia-x100.jpg ",
+        "title": "Nokia X200 ",
+        "description": "Display:1080 x 2400 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable ",
+        "price": " $290"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s21-ultra-5g-.jpg ",
+        "title": "Samsung S22 Ultra 5G ",
+        "description": "Display:1440 x 3200 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable  ",
+        "price": " $150"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-9-pro-.jpg ",
+        "title": "OnePlus 8 Pro ",
+        "description": "Display:1440 x 3200 pixels, Chipset:Qualcomm SM8450 Snapdragon 898, Platform:OS-Android 11, Memory: 8/128 GB,Battery: Li-Po 4000 mAh non-removable  ",
+        "price": " $700"
+    },
+    {
+        "img": "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-13.jpg ",
+        "title": " Apple iPhone 12",
+        "description": "Display: Super Retina 1440 x 3200 pixels, Chipset:Apple A15 Bionic (5 nm), Platform:iOS 15, Memory: 8/128 GB,Battery: Li-Ion 3240 mAh, non-removable (12.41 Wh)",
+        "price": " $1000"
+    }
+]
