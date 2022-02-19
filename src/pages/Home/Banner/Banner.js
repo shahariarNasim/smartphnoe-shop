@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from "@restart/ui/esm/Button";
+import Bounce from "react-reveal/Bounce"
 
 
 const Banner = () => {
@@ -18,13 +18,15 @@ const Banner = () => {
           }}
         >
           <div className="mx-5">
-            <h1 className="text-primary fw-bolder">The ultimate resource for Mobiles<br/>and information!</h1>
+            <Bounce right>
+            <h1 className="text-primary fw-bolder mb-4">The ultimate resource for Mobiles<br/>and information!</h1>
+            </Bounce>
+            
             <h5 className="text-info mb-4">
             Smart-Phone Shop official store helps you to discover IOS, <br/> and Android Mobiles accessories and ecosystem products including <br/> other features Phone Enjoy an extensive mobile phone specs database <br/> with the official Get all the latest tech news, rumors, and reviews.
             </h5>
             
-            
-            <p style={{}} className='text-light mt-4 p-3 fw-bolder'> 
+            <p style={{}} className='text-light mt-4 py-3 fw-bolder'> 
            Scroll down for learn more 	&darr; </p> 
 
           </div> 

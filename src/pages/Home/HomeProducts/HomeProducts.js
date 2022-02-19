@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './homeProducts.css'
-
+import Fade from 'react-reveal/Fade';
 const HomeProducts = () => {
     const [products, setProducts] = useState([]);
 
@@ -19,7 +19,9 @@ const HomeProducts = () => {
            </div>
             {
                 products.slice(0, 6).map((product) => 
-                  <div className='col-lg-4 col-md-12 border border-1 py-2 mb-4' key={product?._id}>
+
+                <Fade>
+                    <div className='col-lg-4 col-md-12 border border-1 py-2 mb-4' key={product?._id}>
                       <img src={product?.img} alt='' />
                       <h5> {product.title}</h5>
                       <p style={{fontWeight:500, color:'gray'}}> Price: <span style={{color:"red",fontWeight:600}}>{product.price}</span></p>
@@ -27,6 +29,8 @@ const HomeProducts = () => {
                       <button className="btn-style" type="submit">Buy Now</button>
                       </Link>                     
                   </div>
+                </Fade>
+                  
                 )
             }
              <div className="mb-4">

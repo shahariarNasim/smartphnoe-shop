@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router';
 import useAuth from '../../hooks/useAuth';
 
@@ -7,6 +7,8 @@ const Details = () => {
     const [product, setProduct] = useState([]);
     const { id } = useParams()
     const { user } = useAuth()
+    const placeRef = useRef()
+    const numberRef = useRef()
 
     useEffect(() => {
         fetch(`https://smartphone-shopp.herokuapp.com/products/${id}`)
@@ -20,8 +22,10 @@ const Details = () => {
         const img = product.img
         const productName = product.title
         const price = product.price
+        const place = placeRef.current.value;
+        const number = numberRef.current.value;
         const status = "Pending"
-        const data ={userName, img, productName, price, status, email }
+        const data ={userName, img, productName, price, status, email, number, place }
 
         fetch('https://smartphone-shopp.herokuapp.com/orders',
         {
@@ -36,6 +40,7 @@ const Details = () => {
         .then((data) => {
             if(data){
                 alert('Order SuccessFull')
+                e.target.reset();
                 
             }
         })
@@ -45,7 +50,7 @@ const Details = () => {
 
 
     return (
-        <div className='row my-5 justify-content-center align-content-center mx-2'>
+        <div className='row my-5 justify-content-center align-items-center mx-2'>
             <div className='col-lg-5'>
                 <img src={product.img} alt=""/>               
                 
@@ -56,7 +61,25 @@ const Details = () => {
                 <h5>{product.title}</h5>
                 <p>{product.description}</p>
                 <input type="radio" checked />Cash on Delivery <br /> <br />
-                <button className="btn btn-danger" onClick={AddOrder} type="submit">Buy{product.price}</button>
+                <form onSubmit={AddOrder}>
+                 <input
+                     placeholder="Enter your Location"
+                     style={{ border: "2px solid lightsteelblue" }}
+                     type="text"
+                     required
+                     className="px-2 py-1 rounded w-100"
+                     ref={placeRef}
+                   /> <br />
+                 <input
+                     placeholder="Contact Number"
+                     style={{ border: "2px solid lightsteelblue" }}
+                     type="number"
+                     required
+                     className="px-2 py-1 mt-3 rounded w-50"
+                     ref={numberRef}
+                   /> <br />
+                 <input type="submit" className='btn btn-danger py-1 mt-3' value="BUY NOW" />              
+              </form>
             
             </div>
         </div>
