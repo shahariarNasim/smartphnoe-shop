@@ -40,8 +40,8 @@ const AddReviews = () => {
 
             <form onSubmit={handleSubmit(onSubmit)}>
                 <h4 className='mb-4'>Write a Review </h4>
-                <textarea rows="5" className='w-50' placeholder='Share your experience with us...' maxLength='200' required {...register('description')} /> <br /> <br />
-                <input className='w-25' type="number" {...register('rating')} 
+                <textarea rows="5" className='w-75' placeholder='Share your experience with us...' maxLength='200' required {...register('description')} /> <br /> <br />
+                <input className='w-50' type="number" {...register('rating')} 
                 required
                 placeholder="Rate this site between (0-5)"
                  />

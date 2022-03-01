@@ -26,8 +26,7 @@ const Banner = () => {
             Smart-Phone Shop official store helps you to discover IOS, <br/> and Android Mobiles accessories and ecosystem products including <br/> other features Phone Enjoy an extensive mobile phone specs database <br/> with the official Get all the latest tech news, rumors, and reviews.
             </h5>
             
-            <p style={{}} className='text-light mt-4 py-3 fw-bolder'> 
-           Scroll down for learn more 	&darr; </p> 
+            <p style={{color: '#DA2B7D'}} className='fw-bold mt-4'>Scroll down for learn more  <img style={{width: '14px', marginLeft: '10px'}} src="https://thumbs.gfycat.com/PhonyOffensiveBarbet.webp" alt=""/> </p>
 
           </div> 
         </div>

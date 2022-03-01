@@ -14,8 +14,12 @@ const Navigation = () => {
                 <Navbar.Collapse className="justify-content-end">
                 <Nav.Link className="nav-style" as={Link} to="/Home">Home</Nav.Link>
                 <Nav.Link className="nav-style" as={Link} to="/products">Products</Nav.Link>
-                <Nav.Link className="nav-style" as={Link} to="/AddReviews">Reviews</Nav.Link>
-                <Nav.Link className="nav-style" as={Link} to="/Order">My Orders</Nav.Link>
+                {!admin && <>
+                    <Nav.Link className="nav-style" as={Link} to="/Allreviews">Reviews</Nav.Link>
+                    <Nav.Link className="nav-style" as={Link} to="/Order">My Orders</Nav.Link>
+                    <Nav.Link className="nav-style" as={Link} to="/pay">Pay</Nav.Link> </>
+                }
+                
                 {
                     admin && <>
                     <Nav.Link className="nav-style" as={Link} to="/ManageOrders">Manage Orders</Nav.Link>
@@ -25,7 +29,7 @@ const Navigation = () => {
                     </>
                 }
                 
-                <Nav.Link className="nav-style" as={Link} to="/pay">Pay</Nav.Link>
+                
 
                     <h5 className="mt-2 mx-2 text-success text-decoration-underline  p-0 fs-6">{user?.displayName}</h5>
                     {user.email ? (

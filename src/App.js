@@ -8,7 +8,6 @@ import NotFound from './pages/NotFound/NotFound';
 import Reviews from './pages/Reviews/Reviews';
 import Footer from './pages/Footer/Footer';
 import Details from './pages/Products/Details';
-import AddReviews from './pages/Reviews/AddReviews';
 import Login from "./pages/Login/Login"
 import Register from "./pages/Register/Register"
 import PrivateRoute from "./pages/Login/PrivateRoute/PrivateRoute"
@@ -20,6 +19,7 @@ import Pay from './pages/Payment/Pay';
 import ManageProduct from './pages/Products/ManageProduct';
 import MakeAdmin from './pages/MakeAdmin/MakeAdmin';
 import UpdateOrder from './pages/Order/UpdateOrder';
+import Allreviews from './pages/Reviews/Allreviews';
 
 function App() {
   return (
@@ -61,9 +61,11 @@ function App() {
              <ManageOrders></ManageOrders>
             </PrivateRoute>
 
-            <PrivateRoute path="/AddReviews">
-              <AddReviews></AddReviews>
+            <PrivateRoute path='/Allreviews'>
+              <Allreviews></Allreviews>
             </PrivateRoute>
+
+          
 
             <PrivateRoute path="/MakeAdmin">
               <MakeAdmin></MakeAdmin>

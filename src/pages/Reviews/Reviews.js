@@ -14,11 +14,11 @@ const Reviews = () => {
     return (
         <div className="row my-5 mx-1 align-items-center justify-content-between">
             <h2 style={{ color: "#262339" }} className="fw-bold mt-5">
-                Customers Reviews
+                Top Reviews   
             </h2>
             <hr />
             {
-                reviews.map((review) => 
+                reviews.slice(0, 4).map((review) => 
                     <div className="col-lg-6 mb-4">
                         <div className="row align-items-center">
                             <div className="col-lg-2 col-4">
